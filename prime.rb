@@ -1,8 +1,10 @@
 # Add  code here!
 def prime?(number)
-  dividers = (3..6).to_a
+  dividers = (2..6).to_a
   dividers.each do |divider|
-    if number % divider == 0
+    if number == 2
+      return true
+    elsif number % divider == 0
       return false
     else
       return true
