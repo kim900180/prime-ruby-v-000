@@ -1,6 +1,6 @@
 # Add  code here!
 def prime?(number)
-  dividers = (2..6).to_a
+  dividers = (2..5).to_a
   dividers.each do |divider|
     if number == 2
       return true
